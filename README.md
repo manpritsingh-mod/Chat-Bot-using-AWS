@@ -1,5 +1,6 @@
 # Chat-Bot-using-AWS
 
 ## Supported AWS Services
--AMAZON LEX
--AMAZON S3
+- AMAZON LEX
+
+- AMAZON S3
