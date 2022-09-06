@@ -7,7 +7,8 @@ Amazon Web Services provides on-demand cloud computing platforms, on a metered p
 a simple booking-bot that uses amazon-lex for chatting with the users and getting the user details for confirmation of booking . 
 
 ## Supported AWS Services
-- AMAZON LEX
+- AMAZON LEX -
+`Amazon Lex is a service for building conversational interfaces into any application using voice and text `
 
 - AMAZON S3 -
 `Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.` 
