@@ -9,7 +9,8 @@ a simple booking-bot that uses amazon-lex for chatting with the users and gettin
 ## Supported AWS Services
 - AMAZON LEX
 
-- AMAZON S3
+- AMAZON S3 
+- `Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.` 
 
 ### I have made this Chat Bot using AWS (Amazon Lex Services) for Assisting user for Hotel and Banquet Reservation .
 
