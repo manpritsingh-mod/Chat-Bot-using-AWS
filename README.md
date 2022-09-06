@@ -15,4 +15,4 @@ a simple booking-bot that uses amazon-lex for chatting with the users and gettin
 
 # Screenshots
 
-![Screenshot (601)](https://user-images.githubusercontent.com/83352826/188685510-2210b1a1-0955-4dc8-9a3b-cd802e61c173.png)
+![chatbot](https://user-images.githubusercontent.com/83352826/188690074-0bf35701-6d7a-4c8b-81be-68e4b655d85c.gif)
