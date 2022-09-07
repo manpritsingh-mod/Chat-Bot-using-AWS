@@ -26,6 +26,7 @@ a simple booking-bot that uses amazon-lex for chatting with the users and gettin
 
 # Screenshots
 
+### Configuring Chat Bot
 <img width="500" alt="Screenshot 2022 " src= "https://user-images.githubusercontent.com/83352826/188882825-d457ed1f-b7ef-4456-b87a-d6ad623346d7.png">  <img width="500" alt="Screenshot 2022 " src= "https://user-images.githubusercontent.com/83352826/188883043-76fb743b-5154-4aad-99b9-787af8982224.png">
 
 <img width="500" alt="Screenshot 2022 " src= "https://user-images.githubusercontent.com/83352826/188884181-8ba72ecb-0272-487e-93ba-6640d717d910.png"> <img width="500" alt="Screenshot 2022 " src= "https://user-images.githubusercontent.com/83352826/188884363-70e99866-3512-46bc-b8e2-af60a799bb78.png">
