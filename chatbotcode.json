@@ -1,0 +1,541 @@
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "hii",
+ "sessionId": "851218156764708"
+}
+
+
+
+{
+ "messages": [
+  {
+   "content": "Welcome to All India Hotel Reservation Portal...",
+   "contentType": "PlainText"
+  },
+  {
+   "contentType": "ImageResponseCard",
+   "imageResponseCard": {
+    "title": "Please select your querry",
+    "buttons": [
+     {
+      "text": "Hotel Room Reservation",
+      "value": "Room"
+     },
+     {
+      "text": "Banquet Reservation",
+      "value": "Banquet"
+     }
+    ]
+   }
+  }
+ ],
+ "sessionState": {
+  "dialogAction": {
+   "type": "ElicitSlot",
+   "slotToElicit": "ServiceSelect"
+  },
+  "intent": {
+   "name": "Booking",
+   "slots": {
+    "Firstname": null,
+    "HotelSelect": null,
+    "Lastname": null,
+    "ServiceSelect": null,
+    "city": null,
+    "date": null,
+    "duration": null,
+    "email": null,
+    "phno": null,
+    "room": null
+   },
+   "state": "InProgress",
+   "confirmationState": "None"
+  },
+  "sessionAttributes": {},
+  "originatingRequestId": "7ea52239-e3cf-4668-934e-0940b1cf81f6"
+ },
+ "interpretations": [
+  {
+   "nluConfidence": {
+    "score": 1
+   },
+   "intent": {
+    "name": "Booking",
+    "slots": {
+     "Firstname": null,
+     "HotelSelect": null,
+     "Lastname": null,
+     "ServiceSelect": null,
+     "city": null,
+     "date": null,
+     "duration": null,
+     "email": null,
+     "phno": null,
+     "room": null
+    },
+    "state": "InProgress",
+    "confirmationState": "None"
+   }
+  },
+  {
+   "intent": {
+    "name": "FallbackIntent",
+    "slots": {}
+   }
+  }
+ ],
+ "sessionId": "851218156764708"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",{
+ "messages": [
+  {
+   "content": "Enter your First Name",
+   "contentType": "PlainText"
+  }
+ ],
+ "sessionState": {
+  "dialogAction": {
+   "type": "ElicitSlot",
+   "slotToElicit": "Firstname"
+  },
+  "intent": {
+   "name": "Booking",
+   "slots": {
+    "Firstname": null,
+    "HotelSelect": null,
+    "Lastname": null,
+    "ServiceSelect": {
+     "value": {
+      "originalValue": "Room",
+      "interpretedValue": "room",
+      "resolvedValues": [
+       "room"
+      ]
+     }
+    },
+    "city": null,
+    "date": null,
+    "duration": null,
+    "email": null,
+    "phno": null,
+    "room": null
+   },
+   "state": "InProgress",
+   "confirmationState": "None"
+  },
+  "sessionAttributes": {},
+  "originatingRequestId": "7ea52239-e3cf-4668-934e-0940b1cf81f6"
+ },
+ "interpretations": [
+  {
+   "nluConfidence": {
+    "score": 1
+   },
+   "intent": {
+    "name": "Booking",
+    "slots": {
+     "Firstname": null,
+     "HotelSelect": null,
+     "Lastname": null,
+     "ServiceSelect": {
+      "value": {
+       "originalValue": "Room",
+       "interpretedValue": "room",
+       "resolvedValues": [
+        "room"
+       ]
+      }
+     },
+     "city": null,
+     "date": null,
+     "duration": null,
+     "email": null,
+     "phno": null,
+     "room": null
+    },
+    "state": "InProgress",
+    "confirmationState": "None"
+   }
+  },
+  {
+   "intent": {
+    "name": "FallbackIntent",
+    "slots": {}
+   }
+  }
+ ],
+ "sessionId": "851218156764708"
+}
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "Room",
+ "sessionId": "851218156764708"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "Manprit ",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "Singh",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "6202319598",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "messages": [
+  {
+   "content": "Enter your Email-id",
+   "contentType": "PlainText"
+  }
+ ],
+ "sessionState": {
+  "dialogAction": {
+   "type": "ElicitSlot",
+   "slotToElicit": "email"
+  },
+  "intent": {
+   "name": "Booking",
+   "slots": {
+    "Firstname": {
+     "value": {
+      "originalValue": "Manprit",
+      "interpretedValue": "Manprit",
+      "resolvedValues": []
+     }
+    },
+    "HotelSelect": null,
+    "Lastname": {
+     "value": {
+      "originalValue": "Singh",
+      "interpretedValue": "Singh",
+      "resolvedValues": []
+     }
+    },
+    "ServiceSelect": {
+     "value": {
+      "originalValue": "Room",
+      "interpretedValue": "room",
+      "resolvedValues": [
+       "room"
+      ]
+     }
+    },
+    "city": null,
+    "date": null,
+    "duration": null,
+    "email": null,
+    "phno": {
+     "value": {
+      "originalValue": "6202319598",
+      "interpretedValue": "6202319598",
+      "resolvedValues": [
+       "6202319598"
+      ]
+     }
+    },
+    "room": null
+   },
+   "state": "InProgress",
+   "confirmationState": "None"
+  },
+  "sessionAttributes": {},
+  "originatingRequestId": "471de02f-b439-4029-a168-16f9518e05c8"
+ },
+ "interpretations": [
+  {
+   "nluConfidence": {
+    "score": 1
+   },
+   "intent": {
+    "name": "Booking",
+    "slots": {
+     "Firstname": {
+      "value": {
+       "originalValue": "Manprit",
+       "interpretedValue": "Manprit",
+       "resolvedValues": []
+      }
+     },
+     "HotelSelect": null,
+     "Lastname": {
+      "value": {
+       "originalValue": "Singh",
+       "interpretedValue": "Singh",
+       "resolvedValues": []
+      }
+     },
+     "ServiceSelect": {
+      "value": {
+       "originalValue": "Room",
+       "interpretedValue": "room",
+       "resolvedValues": [
+        "room"
+       ]
+      }
+     },
+     "city": null,
+     "date": null,
+     "duration": null,
+     "email": null,
+     "phno": {
+      "value": {
+       "originalValue": "6202319598",
+       "interpretedValue": "6202319598",
+       "resolvedValues": [
+        "6202319598"
+       ]
+      }
+     },
+     "room": null
+    },
+    "state": "InProgress",
+    "confirmationState": "None"
+   }
+  },
+  {
+   "intent": {
+    "name": "FallbackIntent",
+    "slots": {}
+   }
+  }
+ ],
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "smanprit022@gmail.com",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "Delhi",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "MarcoPolo",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "Single",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "5 Aug",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "6",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "yes",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "yes",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "botAliasId": "TSTALIASID",
+ "botId": "BOYK59MCDA",
+ "localeId": "en_US",
+ "text": "Indian",
+ "sessionId": "851218156764582"
+}
+
+
+
+{
+ "messages": [
+  {
+   "content": "Your request has been made !",
+   "contentType": "PlainText"
+  },
+  {
+   "content": "Hope you enjoy your stay .",
+   "contentType": "PlainText"
+  },
+  {
+   "contentType": "ImageResponseCard",
+   "imageResponseCard": {
+    "title": "**************************************",
+    "imageUrl": "https://pbucketp.s3.amazonaws.com/Thank-You-note.jpg"
+   }
+  }
+ ],
+ "sessionState": {
+  "dialogAction": {
+   "type": "Close"
+  },
+  "intent": {
+   "name": "FoodOptions",
+   "slots": {
+    "food": {
+     "value": {
+      "originalValue": "Indian",
+      "interpretedValue": "indian",
+      "resolvedValues": [
+       "indian"
+      ]
+     }
+    }
+   },
+   "state": "ReadyForFulfillment",
+   "confirmationState": "None"
+  },
+  "activeContexts": [
+   {
+    "name": "booking_complete",
+    "timeToLive": {
+     "timeToLiveInSeconds": 38,
+     "turnsToLive": 3
+    },
+    "contextAttributes": {
+     "Firstname": "Manprit",
+     "HotelSelect": "marcopolo",
+     "Lastname": "Singh",
+     "ServiceSelect": "room",
+     "city": "Delhi",
+     "date": "2023-08-05",
+     "duration": "6",
+     "email": "smanprit022@gmail.com",
+     "phno": "6202319598",
+     "room": "single"
+    }
+   }
+  ],
+  "sessionAttributes": {},
+  "originatingRequestId": "471de02f-b439-4029-a168-16f9518e05c8"
+ },
+ "interpretations": [
+  {
+   "nluConfidence": {
+    "score": 1
+   },
+   "intent": {
+    "name": "FoodOptions",
+    "slots": {
+     "food": {
+      "value": {
+       "originalValue": "Indian",
+       "interpretedValue": "indian",
+       "resolvedValues": [
+        "indian"
+       ]
+      }
+     }
+    },
+    "state": "ReadyForFulfillment",
+    "confirmationState": "None"
+   }
+  },
+  {
+   "intent": {
+    "name": "FallbackIntent",
+    "slots": {}
+   }
+  },
+  {
+   "nluConfidence": {
+    "score": 0.47
+   },
+   "intent": {
+    "name": "Booking",
+    "slots": {
+     "Firstname": null,
+     "HotelSelect": null,
+     "Lastname": null,
+     "ServiceSelect": null,
+     "city": null,
+     "date": null,
+     "duration": null,
+     "email": null,
+     "phno": null,
+     "room": null
+    }
+   }
+  }
+ ],
+ "sessionId": "851218156764582"
+}
+
+
+
